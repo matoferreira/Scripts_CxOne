@@ -1,0 +1,9 @@
+TENANT_NAME=your_tenant_name_here
+OAUTH_CLIENT=your_oauth_client_here
+SECRET_KEY=your_secret_key_here
+COD_APP=your_cod_app_here
+AST_BASE_URL=ast.checkmarx.net
+IAM_BASE_URL=iam.checkmarx.net
+CONTINUE_ON_ROLE_ASSIGNMENT_ERROR=false
+PLUGIN_SCANNER_GROUP=CHMX_PLUGINSCANNER
+APP_CSV_PATH=apps_cx.csv

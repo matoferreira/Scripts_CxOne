@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.env
+token_cache.json
+group_ids.json
+application_info.json
+oauth_client_info.json
+bulk_provision_results.json

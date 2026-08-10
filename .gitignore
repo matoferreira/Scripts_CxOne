@@ -1,0 +1,52 @@
+# Secrets and local config
+.env
+.env.local
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Generated auth / provisioning artifacts
+token_cache.json
+group_ids.json
+application_info.json
+oauth_client_info.json
+bulk_provision_results.json
+
+# Runtime outputs
+output/
+reports/
+*.log
+*.pid
+
+# Bulk-scan run artifacts
+Script scan all tenant/scan_report_*.csv
+Script scan all tenant/scan_report_*.json
+Script scan all tenant/sast_*.csv
+Script scan all tenant/sast_*.json
+Script scan all tenant/rescan_*.csv
+Script scan all tenant/rescan_*.json
+Script scan all tenant/manual_review_*.csv
+Script scan all tenant/manual_review_*.json
+Script scan all tenant/*_scan_report.csv
+Script scan all tenant/*_scan_report.json
+Script scan all tenant/*_scan.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archives
+*.zip

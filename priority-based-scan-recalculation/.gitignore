@@ -1,0 +1,26 @@
+# Credenciales y configuración local
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Informes generados en cada ejecución
+reports/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores (ajustes locales)
+.idea/
+*.swp
+*.swo
+
+.vscode/
